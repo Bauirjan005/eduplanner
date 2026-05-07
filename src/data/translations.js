@@ -154,6 +154,14 @@ export const translations = {
       support: 'Қолдау',
       supportItems: ['Төлем', 'Қайтару', 'FAQ', 'Құпиялылық саясаты'],
       workingHours: 'Жұмыс уақыты',
+    },
+    auth: {
+      loginTitle: 'Жүйеге кіру',
+      registerTitle: 'Тіркелу',
+      welcome: 'Жүйеге кіру үшін деректеріңізді енгізіңіз',
+      email: 'Email мекенжайы',
+      password: 'Құпия сөз',
+      submit: 'Кіру',
     }
   },
   RU: {
@@ -311,6 +319,14 @@ export const translations = {
       support: 'Поддержка',
       supportItems: ['Оплата', 'Возврат', 'FAQ', 'Политика конфиденциальности'],
       workingHours: 'Время работы',
+    },
+    auth: {
+      loginTitle: 'Вход в систему',
+      registerTitle: 'Регистрация',
+      welcome: 'Введите свои данные для входа в систему',
+      email: 'Электронная почта',
+      password: 'Пароль',
+      submit: 'Войти',
     }
   }
 };
