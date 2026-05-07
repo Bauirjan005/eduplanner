@@ -1,0 +1,98 @@
+export const categories = [
+  { id: 'plans', name: 'Планы уроков', icon: 'BookOpen' },
+  { id: 'pres', name: 'Презентации', icon: 'Presentation' },
+  { id: 'tests', name: 'Тесты', icon: 'Trophy' },
+  { id: 'manuals', name: 'Методические пособия', icon: 'FileText' },
+  { id: 'kinder', name: 'Для детского сада', icon: 'Baby' },
+  { id: 'primary', name: 'Начальная школа', icon: 'School' },
+  { id: 'author', name: 'Авторские материалы', icon: 'Star' },
+  { id: 'video', name: 'Видео-уроки', icon: 'Video' },
+  { id: 'webinars', name: 'Вебинары', icon: 'Users' },
+];
+
+export const products = [
+  {
+    id: 1,
+    title: 'План урока для начальной школы',
+    price: 2500,
+    rating: 4.8,
+    reviews: 124,
+    category: 'primary',
+    language: 'KZ',
+    level: 'primary',
+    type: 'Standard',
+    author: 'Айгуль Смаилова',
+    image: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=800&auto=format&fit=crop',
+    description: 'Полностью структурирован, соответствует обновлённой программе.'
+  },
+  {
+    id: 2,
+    title: 'Сборник презентаций по математике',
+    price: 3200,
+    rating: 5.0,
+    reviews: 89,
+    category: 'pres',
+    language: 'RU',
+    level: 'middle',
+    type: 'Standard',
+    author: 'Сергей Петров',
+    image: 'https://images.unsplash.com/photo-1509228468518-180dd482180c?q=80&w=800&auto=format&fit=crop',
+    description: 'Наглядные, готовые слайды для эффективного обучения.'
+  },
+  {
+    id: 3,
+    title: 'План организованной деятельности для детского сада',
+    price: 2000,
+    rating: 4.7,
+    reviews: 56,
+    category: 'kinder',
+    language: 'KZ',
+    level: 'preschool',
+    type: 'Standard',
+    author: 'Баян Есентаева',
+    image: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=800&auto=format&fit=crop',
+    description: 'Материалы для дошкольных учреждений и воспитателей.'
+  },
+  {
+    id: 4,
+    title: 'Тесты для подготовки к ЕНТ',
+    price: 4500,
+    rating: 4.9,
+    reviews: 210,
+    category: 'tests',
+    language: 'RU',
+    level: 'high',
+    type: 'Premium',
+    author: 'Кайрат Нуртас',
+    image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=800&auto=format&fit=crop',
+    description: 'Полная тестовая база для эффективной подготовки к экзаменам.'
+  },
+  {
+    id: 5,
+    title: 'Авторское методическое пособие',
+    price: 5500,
+    rating: 4.6,
+    reviews: 42,
+    category: 'author',
+    language: 'KZ',
+    level: 'teachers',
+    type: 'Авторские',
+    author: 'Мадина Садвакасова',
+    image: 'https://images.unsplash.com/photo-1544716124-059062ce3dd6?q=80&w=800&auto=format&fit=crop',
+    description: 'Эксклюзивный материал на основе педагогического опыта.'
+  },
+  {
+    id: 6,
+    title: 'Видео-урок: Инновации в образовании',
+    price: 12000,
+    rating: 5.0,
+    reviews: 15,
+    category: 'video',
+    language: 'RU',
+    level: 'teachers',
+    type: 'Авторские',
+    author: 'Айаулым Оңайбаева',
+    image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=800&auto=format&fit=crop',
+    description: 'Материал для повышения квалификации и профессионального развития.'
+  }
+];
